@@ -1,11 +1,26 @@
-.crystals {
+body {
+    background-image: url("https://www.animationsource.org/sites_content/balto/upload/fanimage/dorcia_/dorcia_262f.jpg");
+    color: silver;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+.gems {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .crystal {
-    border: 1px solid blue;
-    height: 200px;
-    width: 200px;
+    border: 1px solid silver;
+    height: 150px;
+    width: 150px;
+}
+
+img {
+    width: 50px;
 }
